@@ -1,0 +1,57 @@
+﻿<html>
+<head>
+    <title>Графики 3D</title>
+    <meta charset="utf-8" />
+    <link href='css/style.css' rel='stylesheet' />
+    
+    <script src='js/graph3D/entities/Point.js'></script>
+    <script src='js/graph3D/entities/Edge.js'></script>
+    <script src='js/graph3D/entities/Polygon.js'></script>
+    <script src='js/graph3D/entities/Subject.js'></script>
+    <script src='js/graph3D/entities/Light.js'></script>
+
+    <script src='js/graph3D/Surfaces/Surfaces.js'></script>
+    <script src='js/graph3D/Surfaces/cube.js'></script>
+    <script src='js/graph3D/Surfaces/bublik.js'></script>
+    <script src='js/graph3D/Surfaces/sphera.js'></script>
+    <script src='js/graph3D/Surfaces/ellipsoid.js'></script>
+    <script src='js/graph3D/Surfaces/ellipsParaboloid.js'></script>
+    <script src='js/graph3D/Surfaces/hyperbolicParaboloid.js'></script>
+    <script src='js/graph3D/Surfaces/ellipscylinder.js'></script>
+    <script src='js/graph3D/Surfaces/cone.js'></script>
+    <script src='js/graph3D/Surfaces/oneHyperbolid.js'></script>
+    <script src='js/graph3D/Surfaces/twoHyperbolid.js'></script>
+    <script src='js/graph3D/Surfaces/hyperCylinder.js'></script>
+    <script src='js/graph3D/Surfaces/parabCylinder.js'></script>
+
+    <script src='js/graph3D/Math3D.js'></script>
+    <script src='js/graph3D/Graph3D.js'></script>
+    <script src='js/graph/Canvas.js'></script>
+    <script src='js/ui/UI.js'></script>   
+    <script src='js/main.js'></script>
+</head>
+<body>
+    <div class="canvas">
+        <canvas id="canvas"></canvas>
+    </div>
+    <div class="checkboxButton"> 
+        <br>
+
+        <label for="pointTrue">
+            <input type="checkbox" id="printPoints">
+            <strong>Точки</strong>
+        </label><br>
+
+        <label for="pointTrue">                
+            <input type="checkbox" id="printEdges">
+            <strong>Ребра</strong>
+        </label><br>
+
+        <label for="pointTrue">
+            <input type="checkbox" checked id="printPolygons" >
+            <strong>Полигоны</strong>            
+        </label><br>
+
+    </div>    
+</body>
+</html>
